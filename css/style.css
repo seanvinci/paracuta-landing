@@ -1,0 +1,168 @@
+body {
+  background-image: url('../img/album_mountain_bg4.jpg');
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+p { line-height: normal; }
+
+.button {
+  background-color: #8aafa9;
+  color: #fff;
+  display: block;
+  font-family: 'Oswald';
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  line-height: 0.87rem;
+  padding: 1.2rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.album-block {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+.album-block .video { margin-bottom: 1rem; }
+
+.album-block nav { text-align: center; }
+
+.album-block nav p {
+  font-family: 'oswald';
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.album-block nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.album-block nav ul li { margin-bottom: 0.8rem; }
+
+.signup-block {
+  text-align: center;
+  background-color: #fff;
+  padding: 1.5rem 1rem;
+}
+
+.signup-block p {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.input-wrap {
+  display: block;
+  background: #fff;
+  box-shadow: 0 0 0 1px #B2ABA8;
+  transition: 0.3s;
+  margin-bottom: 1rem;
+}
+
+.input-wrap input {
+  text-transform: uppercase;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  outline: none;
+  color: #4D4D4D;
+  font-family: 'Oswald';
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: normal;
+  padding: 0.7rem 0.9rem;
+  transition: box-shadow 0.3s;
+  width: 100%;
+}
+
+.signup-block .button {
+  margin: 0 auto 1rem;
+  width: 100%;
+}
+
+.signup-block .button:hover {
+  box-shadow: none;
+  background-color: #99bfb9;
+}
+
+footer {
+  line-height: normal;
+  background-color: #eee;
+  text-align: center;
+  padding: 1.5rem;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.02rem;
+}
+
+
+@media only screen and (min-width: 48em) {
+
+  .album-block {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+
+  .album-block .video { margin-bottom: 3rem; }
+
+  .album-block nav p {
+    font-size: 2.3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .album-block nav ul li {
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .signup-block {
+    padding: 6rem 0;
+  }
+
+  .signup-block p {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .input-wrap {
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 15rem;
+  }
+
+  .signup-block .button {
+    vertical-align: middle;
+    display: inline-block;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .button { display: inline-block; }
+
+  .button:hover {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 3px #8aafa9;
+  }
+
+}
